@@ -4,6 +4,6 @@ import java.util.List;
 
 public class Journey extends BaseModel {
 
-    List<Establishment> establishments;
+    private List<Establishment> establishments;
 
 }
