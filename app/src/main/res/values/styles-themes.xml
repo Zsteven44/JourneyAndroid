@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--region Base -->
+
+    <!-- root for all styles -->
+    <style name="Journey"/>
+
+    <!-- root for all themes -->
+    <style name="Journey.Theme" parent="@style/Theme.AppCompat.NoActionBar"/>
+
+    <!-- endregion Base -->
+
+    <!-- region App Themes -->
+
+    <!-- White -->
+    <style name="Journey.Theme.White">
+        <item name="colorPrimary">@color/white</item>
+        <item name="colorPrimaryDark">@color/whitesmoke</item>
+        <item name="colorAccent">@color/royalblue</item>
+        <item name="android:windowBackground">@color/white</item>
+
+        <item name="journeyToolbarStyle">@style/Journey.Toolbar.White</item>
+        <item name="journeyTextInputLayoutTextColor">@color/black</item>
+        <item name="journeyTextInputLayoutTextColorHint">@color/slategray</item>
+    </style>
+
+    <!-- Woodsmoke -->
+    <style name="Journey.Theme.Woodsmoke">
+        <item name="colorPrimary">@color/white</item>
+        <item name="colorPrimaryDark">@color/woodsmoke</item>
+        <item name="colorAccent">@color/white</item>
+
+        <item name="journeyTextInputLayoutTextColor">@color/woodsmoke</item>
+        <item name="journeyToolbarStyle">@style/Journey.Toolbar.Woodsmoke</item>
+        <item name="journeyTextInputLayoutTextColorHint">@color/slategray</item>
+    </style>
+
+    <!-- RoyalBlue -->
+    <style name="Journey.Theme.RoyalBlue">
+        <item name="colorPrimary">@color/royalblue</item>
+        <item name="colorPrimaryDark">@color/chathamsblue</item>
+        <item name="colorAccent">@color/royalblue</item>
+        <item name="android:windowBackground">@color/white</item>
+
+        <item name="journeyToolbarStyle">@style/Journey.Toolbar.RoyalBlue</item>
+        <item name="journeyTextInputLayoutTextColor">@color/white</item>
+        <item name="journeyTextInputLayoutTextColorHint">@color/slategray</item>
+    </style>
+
+    <!-- endregion Primary App Themes -->
+
+    <!-- region Fullscreen Themes -->
+
+    <!-- White -->
+    <style name="Journey.Theme.White.Fullscreen">
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <!-- RoyalBlue -->
+    <style name="Journey.Theme.RoyalBlue.Fullscreen">
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <!-- Woodsmoke -->
+    <style name="Journey.Theme.Woodsmoke.Fullscreen">
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <!-- endregion Fullscreen Themes -->
+
+    <!-- region NoElevation Themes -->
+
+    <!-- White -->
+    <style name="Journey.Theme.White.NoElevation">
+        <item name="journeyToolbarStyle">@style/Journey.Toolbar.White.NoElevation</item>
+    </style>
+
+    <!-- RoyalBlue -->
+    <style name="Journey.Theme.RoyalBlue.NoElevation">
+        <item name="journeyToolbarStyle">@style/Journey.Toolbar.RoyalBlue.NoElevation</item>
+    </style>
+
+    <!-- Woodsmoke -->
+    <style name="Journey.Theme.Woodsmoke.NoElevation">
+        <item name="journeyToolbarStyle">@style/Journey.Toolbar.Woodsmoke.NoElevation</item>
+    </style>
+
+    <!-- endregion Fullscreen Themes -->
+</resources>

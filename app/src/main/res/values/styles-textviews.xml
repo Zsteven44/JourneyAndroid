@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--region Text Views -->
+
+    <!-- root for all text views -->
+    <style name="Journey.TextView">
+        <item name="android:textColorLink">@color/royalblue</item>
+    </style>
+
+    <style name="Journey.TextView.Medium">
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+
+    <style name="Journey.TextView.Bold">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+
+    <!--endregion-->
+</resources>

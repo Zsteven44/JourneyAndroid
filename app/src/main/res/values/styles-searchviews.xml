@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--region Base -->
+
+    <!-- root for all search views -->
+    <style name="Journey.SearchView" parent="Widget.AppCompat.SearchView"/>
+
+    <style name="Journey.SearchView.White">
+        <item name="searchHintIcon">@null</item>
+    </style>
+
+    <!-- endregion Base -->
+
+</resources>

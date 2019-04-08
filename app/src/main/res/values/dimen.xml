@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Units of measurement -->
+    <dimen name="quarter_spacing">2dp</dimen>
+    <dimen name="half_spacing">4dp</dimen>
+    <dimen name="three_quarters_spacing">6dp</dimen>
+    <dimen name="spacing">8dp</dimen>
+    <dimen name="one_and_a_quarter_spacing">10dp</dimen>
+    <dimen name="one_and_a_half_spacing">12dp</dimen>
+    <dimen name="double_spacing">16dp</dimen>
+    <dimen name="two_and_a_half_spacing">20dp</dimen>
+    <dimen name="triple_spacing">24dp</dimen>
+    <dimen name="three_and_a_half_spacing">28dp</dimen>
+    <dimen name="quadruple_spacing">32dp</dimen>
+    <dimen name="quintuple_spacing">40dp</dimen>
+    <dimen name="sextuple_spacing">48dp</dimen>
+    <dimen name="sextuple_and_a_half_spacing">52dp</dimen>
+    <dimen name="septuple_spacing">56dp</dimen>
+    <dimen name="octuple_spacing">64dp</dimen>
+    <dimen name="nonuple_spacing">72dp</dimen>
+    <dimen name="decuple_spacing">80dp</dimen>
+
+    <!-- Negative units -->
+    <dimen name="negative_half_spacing">-4dp</dimen>
+
+    <!-- Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <!-- Text Font Sizes -->
+    <dimen name="textSize_35">35sp</dimen>
+    <dimen name="textSize_23">23sp</dimen>
+    <dimen name="textSize_21">21sp</dimen>
+    <dimen name="textSize_19">19sp</dimen>
+    <dimen name="textSize_17">17sp</dimen>
+    <dimen name="textSize_15">15sp</dimen>
+    <dimen name="textSize_13">13sp</dimen>
+    <dimen name="textSize_11">11sp</dimen>
+
+    <!-- Icon size -->
+    <dimen name="icon_enormous">64dp</dimen>
+    <dimen name="icon_system">48dp</dimen>
+    <dimen name="icon_large">40dp</dimen>
+    <dimen name="icon_menu">32dp</dimen>
+    <dimen name="icon_larger">25dp</dimen>
+    <dimen name="icon_medium">20dp</dimen>
+    <dimen name="icon_mediumy">17dp</dimen>
+    <dimen name="icon_standard">16dp</dimen>
+    <dimen name="icon_smaller">15dp</dimen>
+    <dimen name="icon_small">10dp</dimen>
+    <dimen name="icon_smallest">8dp</dimen>
+
+    <!-- Views -->
+    <dimen name="divider_line_height_small">0.5dp</dimen>
+    <dimen name="divider_line_height">0.75dp</dimen>
+    <dimen name="divider_line_height_large">1dp</dimen>
+    <dimen name="divider_line_height_larger">2dp</dimen>
+
+    <!-- Tab Layouts -->
+    <dimen name="tab_layout_height_large">65dp</dimen>
+    <dimen name="tab_layout_height_big">52dp</dimen>
+    <dimen name="tab_layout_height_medium">42dp</dimen>
+    <dimen name="tab_layout_height_normal">40dp</dimen>
+
+    <!-- Toolbar -->
+    <dimen name="tool_bar_standard_height">56dp</dimen>
+    <dimen name="status_bar_height">24dp</dimen>
+
+    <!-- Elevation -->
+    <dimen name="elevation_lvl_0">1dp</dimen>
+    <dimen name="elevation_lvl_1">4dp</dimen>
+    <dimen name="elevation_lvl_2">8dp</dimen>
+</resources>

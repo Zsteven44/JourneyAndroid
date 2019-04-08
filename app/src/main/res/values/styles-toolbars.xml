@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--region Base -->
+
+    <!-- root for all toolbars -->
+    <style name="Journey.Toolbar">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/tool_bar_standard_height</item>
+        <item name="android:elevation">@dimen/elevation_lvl_1</item>
+        <item name="popupTheme">@style/ThemeOverlay.AppCompat.ActionBar</item>
+        <item name="android:background">?attr/colorPrimary</item>
+    </style>
+
+    <!--endregion-->
+
+    <!--region Woodsmoke Toolbar -->
+
+    <!-- Woodsmoke -->
+    <style name="Journey.Toolbar.Woodsmoke">
+        <item name="android:theme">@style/Journey.Toolbar.Woodsmoke.Theme</item>
+        <item name="titleTextAppearance">@style/Journey.Toolbar.Woodsmoke.Title</item>
+        <item name="subtitleTextAppearance">@style/Journey.Toolbar.Woodsmoke.Subtitle</item>
+    </style>
+
+    <style name="Journey.Toolbar.Woodsmoke.NoElevation">
+        <item name="android:elevation">0dp</item>
+    </style>
+
+    <style name="Journey.Toolbar.Woodsmoke.Theme" parent="@style/ThemeOverlay.AppCompat.ActionBar">
+        <!-- Toolbar's Color -->
+        <item name="colorPrimary">@color/woodsmoke</item>
+        <!-- Color for Toolbar's Back Button and Three Dots -->
+        <item name="colorControlNormal">@color/white</item>
+    </style>
+
+    <style name="Journey.Toolbar.Woodsmoke.Title" parent="TextAppearance.Widget.AppCompat.Toolbar.Title">
+        <item name="android:textSize">@dimen/textSize_17</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="Journey.Toolbar.Woodsmoke.Subtitle" parent="TextAppearance.Widget.AppCompat.Toolbar.Subtitle">
+        <item name="android:textSize">@dimen/textSize_13</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <!--endregion-->
+
+    <!--region RoyalBlue Toolbar -->
+
+    <!-- RoyalBlue -->
+    <style name="Journey.Toolbar.RoyalBlue">
+        <item name="android:theme">@style/Journey.Toolbar.RoyalBlue.Theme</item>
+        <item name="titleTextAppearance">@style/Journey.Toolbar.RoyalBlue.Title</item>
+        <item name="subtitleTextAppearance">@style/Journey.Toolbar.RoyalBlue.Subtitle</item>
+    </style>
+
+    <style name="Journey.Toolbar.RoyalBlue.NoElevation">
+        <item name="android:elevation">0dp</item>
+    </style>
+
+    <style name="Journey.Toolbar.RoyalBlue.Theme" parent="@style/ThemeOverlay.AppCompat.ActionBar">
+        <!-- Toolbar's Color -->
+        <item name="colorPrimary">@color/royalblue</item>
+        <!-- Color for Toolbar's Back Button and Three Dots -->
+        <item name="colorControlNormal">@color/white</item>
+    </style>
+
+    <style name="Journey.Toolbar.RoyalBlue.Title" parent="TextAppearance.Widget.AppCompat.Toolbar.Title">
+        <item name="android:textSize">@dimen/textSize_17</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="Journey.Toolbar.RoyalBlue.Subtitle" parent="TextAppearance.Widget.AppCompat.Toolbar.Subtitle">
+        <item name="android:textSize">@dimen/textSize_13</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <!--endregion-->
+
+    <!--region White Toolbar -->
+
+    <!-- White -->
+    <style name="Journey.Toolbar.White">
+        <item name="android:theme">@style/Journey.Toolbar.White.Theme</item>
+        <item name="titleTextAppearance">@style/Journey.Toolbar.White.Title</item>
+        <item name="subtitleTextAppearance">@style/Journey.Toolbar.White.Subtitle</item>
+    </style>
+
+    <style name="Journey.Toolbar.White.NoElevation">
+        <item name="android:elevation">0dp</item>
+    </style>
+
+    <style name="Journey.Toolbar.White.Theme" parent="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+        <!-- Toolbar's Color -->
+        <item name="colorPrimary">@color/white</item>
+        <!-- Color for Toolbar's Back Button and Three Dots -->
+        <item name="colorControlNormal">@color/woodsmoke</item>
+        <!-- Style for Toolbar's Search View -->
+        <item name="searchViewStyle">@style/Journey.SearchView.White</item>
+        <!-- Color for Search View's txt -->
+        <item name="android:editTextColor">@color/woodsmoke</item>
+    </style>
+
+    <style name="Journey.Toolbar.White.Title" parent="TextAppearance.Widget.AppCompat.Toolbar.Title">
+        <item name="android:textSize">@dimen/textSize_17</item>
+        <item name="android:textColor">@color/woodsmoke</item>
+    </style>
+
+    <style name="Journey.Toolbar.White.Subtitle" parent="TextAppearance.Widget.AppCompat.Toolbar.Subtitle">
+        <item name="android:textSize">@dimen/textSize_13</item>
+        <item name="android:textColor">@color/woodsmoke</item>
+    </style>
+
+    <!--endregion-->
+</resources>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">@color/royalblue</color>
+    <color name="colorPrimaryDark">@color/chathamsblue</color>
+    <color name="colorAccent">@color/conifer</color>
+
+    <!-- Colors -->
+    <color name="white">#FFFFFF</color>
+    <color name="snow">#FFFAFA</color>
+    <color name="whitesmoke">#F5F5F5</color>
+    <color name="gainsboro">#DCDCDC</color>
+    <color name="silverchalice">#AEADAD</color>
+    <color name="slategray">#708090</color>
+    <color name="woodsmoke">#020303</color>
+    <color name="black">#000000</color>
+    <color name="flamenco">#FF840F</color>
+    <color name="red">#FF0000</color>
+    <color name="conifer">#77E63D</color>
+    <color name="springgreen">#00FF7F</color>
+    <color name="oxfordblue">#384555</color>
+    <color name="chathamsblue">#153C84</color>
+    <color name="royalblue">#4169E1</color>
+    <color name="blueribbon">#0F64FF</color>
+
+</resources>
