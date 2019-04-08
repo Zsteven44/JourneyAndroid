@@ -1,4 +1,4 @@
-package com.zafranitechllcpc.journey;
+package com.zafranitechllcpc.journey.ui.misc;
 
 import android.content.Context;
 import android.support.annotation.NonNull;
@@ -12,6 +12,7 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.bumptech.glide.Glide;
+import com.zafranitechllcpc.journey.R;
 import com.zafranitechllcpc.journey.models.Journey;
 
 import java.util.List;
