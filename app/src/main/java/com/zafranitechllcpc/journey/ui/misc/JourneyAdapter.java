@@ -46,11 +46,12 @@ public class JourneyAdapter extends RecyclerView.Adapter<JourneyAdapter.ViewHold
                 .centerCrop()
                 .placeholder(createProgressDrawable())
                 .into(holder.ivPlaceImage);
+        holder.tvName.setText(journey.getName());
     }
 
     @Override
     public int getItemCount() {
-        return 0;
+        return journeyList.size();
     }
 
 
