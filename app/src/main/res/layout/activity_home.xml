@@ -8,12 +8,14 @@
     android:background="@color/whitesmoke"
     tools:context=".ui.HomeActivity">
 
-    <include layout="@layout/toolbar" />
+    <include layout="@layout/toolbar"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"/>
 
     <android.support.v7.widget.RecyclerView
         android:id="@+id/rv_journey_list"
         android:layout_width="match_parent"
-        android:layout_height="0dp"
+        android:layout_height="wrap_content"
         android:clipToPadding="false"
         android:scrollbars="none"
         app:layout_constraintStart_toStartOf="parent"

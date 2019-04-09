@@ -15,6 +15,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 import butterknife.BindView;
+import butterknife.ButterKnife;
 
 public class HomeActivity extends AppCompatActivity {
 
@@ -27,10 +28,14 @@ public class HomeActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home);
+        ButterKnife.bind(this);
+        setupRecyclerView();
     }
 
+
+
     private void setupRecyclerView() {
-        journeyAdapter = new JourneyAdapter(createDummyData());
+        journeyAdapter = new JourneyAdapter(createDummyData(), this);
         rvJourneys.setLayoutManager(new LinearLayoutManager(this));
         rvJourneys.setAdapter(journeyAdapter);
     }

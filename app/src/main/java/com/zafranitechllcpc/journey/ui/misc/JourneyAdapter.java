@@ -18,13 +18,16 @@ import com.zafranitechllcpc.journey.models.Journey;
 import java.util.List;
 
 import butterknife.BindView;
+import butterknife.ButterKnife;
 
 public class JourneyAdapter extends RecyclerView.Adapter<JourneyAdapter.ViewHolder> {
 
     private List<Journey> journeyList;
     private Context context;
 
-    public JourneyAdapter(@Nullable final List<Journey> journeyList) {
+    public JourneyAdapter(@Nullable final List<Journey> journeyList,
+                          @NonNull final Context context) {
+        this.context = context;
         this.journeyList = journeyList;
     }
 
@@ -32,7 +35,7 @@ public class JourneyAdapter extends RecyclerView.Adapter<JourneyAdapter.ViewHold
     @Override
     public JourneyAdapter.ViewHolder onCreateViewHolder(@NonNull final ViewGroup parent,
                                                         final int viewType) {
-        final View view = LayoutInflater.from(context).inflate(R.layout.item_journey_main,parent, false);
+        final View view = LayoutInflater.from(context).inflate(R.layout.item_journey_main, parent, false);
         return new ViewHolder(view);
     }
 
@@ -56,14 +59,15 @@ public class JourneyAdapter extends RecyclerView.Adapter<JourneyAdapter.ViewHold
 
 
     public class ViewHolder extends RecyclerView.ViewHolder {
-        @BindView(R.id.iv_place_profile)
+        @BindView(R.id.iv_journey_profile)
         ImageView ivPlaceImage;
 
-        @BindView(R.id.tv_place_name)
+        @BindView(R.id.tv_journey_name)
         TextView tvName;
 
         public ViewHolder(View itemView) {
             super(itemView);
+            ButterKnife.bind(this, itemView);
         }
     }
 
